@@ -54,6 +54,7 @@ header {
     border: none;
     border-radius: 12px;
     margin-right: 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
 }
 
 .icons{
@@ -351,10 +352,6 @@ span {
     font-size: 20px;
 }
 
-#barInput {
-    box-shadow: 0 0 2px black;
-}
-
 .icon-yonghu {
     position: relative;
 }
@@ -371,7 +368,7 @@ span {
     background-color: #fff;
     color: #000;
     border-radius: 12px;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
     display: none;
     overflow: hidden;
 }
@@ -405,7 +402,7 @@ span {
     background-color: #fff;
     color: #737880;
     border-radius: 12px;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
     display: none;
     justify-content: center;
     overflow: hidden;
@@ -615,7 +612,7 @@ body {
     background-color: #fff;
     color: #000;
     border-radius: 12px;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
     overflow: hidden;
     display: none;
     padding: 15px;
@@ -686,7 +683,7 @@ body {
     bottom: 30px;
     color: #000;
     background-color: white;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
     left: 50%;
     transform: translateX(-50px);
     border-radius: 12px;

@@ -7,6 +7,11 @@ header {
     width: 100%;
 }
 
+.width{
+    width: 1440px;
+    margin: 0 auto;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -54,10 +59,10 @@ header {
     border: none;
     border-radius: 12px;
     margin-right: 10px;
-    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
 }
 
-.icons{
+.icons {
     transition: all 0.5s;
 }
 
@@ -97,7 +102,7 @@ header {
     transition: all 0.5s;
 }
 
-.box1 .imgs img:hover{
+.box1 .imgs img:hover {
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
 }
@@ -117,7 +122,7 @@ header {
     margin: 50px auto 0;
 }
 
-.box3 .item{
+.box3 .item {
     background-color: white;
     padding: 20px 0;
     margin: 0 10px;
@@ -125,8 +130,8 @@ header {
     border-radius: 12px;
 }
 
-.box3 .item:hover{
-    box-shadow: 0 8px 30px rgb(0,0,0,0.3);
+.box3 .item:hover {
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.3);
 }
 
 .box3 s {
@@ -163,7 +168,7 @@ span {
 .box3 .item .xf {
     position: absolute;
     left: 120px;
-    background-image: linear-gradient(120deg,#ff3149,#ff64a6);
+    background-image: linear-gradient(120deg, #ff3149, #ff64a6);
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -204,14 +209,14 @@ span {
     margin: 0 auto;
 }
 
-.box5 .box5_shadow{
+.box5 .box5_shadow {
     transition: all 0.5s;
     margin-left: 10px;
     background-color: #fff;
 }
 
-.box5 .box5_shadow:hover{
-    box-shadow: 0 8px 30px rgb(0,0,0,0.3);
+.box5 .box5_shadow:hover {
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.3);
 }
 
 .box5 .box_y {
@@ -263,7 +268,7 @@ span {
     position: absolute;
     top: 20px;
     left: 90px;
-    background-image: linear-gradient(120deg,#ff3149,#ff64a6);
+    background-image: linear-gradient(120deg, #ff3149, #ff64a6);
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -329,10 +334,11 @@ span {
     padding: 20px;
 }
 
-.itemBox .item img{
+.itemBox .item img {
     height: 120px;
 }
-.itemBox .item p{
+
+.itemBox .item p {
     font-size: 13px;
     width: 120px;
     -webkit-line-clamp: 1;
@@ -343,7 +349,7 @@ span {
     line-height: 20px;
 }
 
-.itemBox .item p:last-child{
+.itemBox .item p:last-child {
     font-size: 12px;
 }
 
@@ -368,7 +374,7 @@ span {
     background-color: #fff;
     color: #000;
     border-radius: 12px;
-    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
     display: none;
     overflow: hidden;
 }
@@ -402,7 +408,7 @@ span {
     background-color: #fff;
     color: #737880;
     border-radius: 12px;
-    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
     display: none;
     justify-content: center;
     overflow: hidden;
@@ -413,7 +419,7 @@ span {
     margin: 0 auto;
 }
 
-.last img{
+.last img {
     height: 320px !important;
 }
 
@@ -446,13 +452,13 @@ body {
     padding: 0;
 }
 
-.footer .left div ul li{
+.footer .left div ul li {
     height: 40px;
     line-height: 40px;
     font-size: 14px;
 }
 
-.footer .left div ul li a{
+.footer .left div ul li a {
     text-decoration: none;
     color: #737880;
     transition: all 0.5s;
@@ -493,7 +499,7 @@ body {
     cursor: pointer;
 }
 
-.R-item2 div:last-child:hover{
+.R-item2 div:last-child:hover {
     opacity: 0.8;
 }
 
@@ -509,11 +515,11 @@ body {
     margin-top: 20px;
 }
 
-#R-last-share{
+#R-last-share {
     position: relative;
 }
 
-#share-M{
+#share-M {
     position: absolute;
     bottom: 40px;
     left: 50%;
@@ -523,23 +529,23 @@ body {
     text-align: center;
 }
 
-#R-last-wechat{
+#R-last-wechat {
     position: relative;
 }
 
-#share-M img{
+#share-M img {
     width: 124px;
 }
 
-#wechat-M img{
+#wechat-M img {
     width: 124px;
 }
 
-#R-last-wechat{
+#R-last-wechat {
     position: relative;
 }
 
-#wechat-M{
+#wechat-M {
     position: absolute;
     bottom: 40px;
     left: 50%;
@@ -561,18 +567,7 @@ body {
     transition: all 0.5s;
 }
 
-#R-last-wechat{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-color: #b9b9b9;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
-}
-#R-last-weibo{
+#R-last-wechat {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -584,7 +579,21 @@ body {
     transition: all 0.5s;
 }
 
-#R-last-share:hover,#R-last-wechat:hover,#R-last-weibo:hover {
+#R-last-weibo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #b9b9b9;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+#R-last-share:hover,
+#R-last-wechat:hover,
+#R-last-weibo:hover {
     background-color: #ff4132;
 }
 
@@ -595,7 +604,7 @@ body {
 
 .footer_bt {
     background-color: #000;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     font-size: 14px;
 }
 
@@ -603,29 +612,35 @@ body {
     position: relative;
 }
 
+.footer_bt li{
+    padding: 20px 0;
+}
+
 #jubanle {
     position: absolute;
     left: 0;
-    bottom: 31px;
+    bottom: 50px;
     width: 300px;
     font-size: 14px;
     background-color: #fff;
     color: #000;
     border-radius: 12px;
-    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
     overflow: hidden;
     display: none;
+    opacity: 0;
+    transition: all 0.2s;
+    transform: translateY(10%);
     padding: 15px;
 }
 
-#jubanle p{
+#jubanle p {
     padding: 5px 0;
 }
 
 #jubanle a {
     text-decoration: none;
     color: #000;
-    transition: all 0.5s;
     font-size: 13px;
 }
 
@@ -656,7 +671,7 @@ body {
     margin-right: 24px;
 }
 
-.footer_bt .bt_l ul li a:hover{
+.footer_bt .bt_l ul li a:hover {
     color: #51514B;
 }
 
@@ -678,19 +693,19 @@ body {
     cursor: pointer;
 }
 
-#br_r_on #yuyan{
+#br_r_on #yuyan {
     position: absolute;
     bottom: 30px;
     color: #000;
     background-color: white;
-    box-shadow: 0 0 5px rgb(0, 0, 0,0.4);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
     left: 50%;
     transform: translateX(-50px);
     border-radius: 12px;
     display: none;
 }
 
-#br_r_on #yuyan ul{
+#br_r_on #yuyan ul {
     list-style: none;
     margin: 0;
     padding: 10px 20px;
@@ -698,19 +713,23 @@ body {
     text-align: center;
 }
 
-#br_r_on #yuyan ul li{
+#br_r_on #yuyan ul li {
     padding: 5px 0;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.swiper-pagination-bullet{
+#br_r_on #yuyan ul li:hover {
+    color: #737880;
+}
+
+.swiper-pagination-bullet {
     background-color: #fff !important;
     opacity: 0.5 !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background-color: transparent !important;
     border: 1px solid white !important;
     opacity: 1 !important;

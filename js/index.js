@@ -163,9 +163,20 @@ var yuyan = document.getElementById('yuyan')
 
 ftFirst.onmouseover = function () {
     jubanle.style.display = 'block'
+    setTimeout(function () {
+        jubanle.style.opacity = '1'
+        jubanle.style.transform = 'translateY(0)'
+    }, 100)
 }
-jubanle.onmouseleave = function () {
-    jubanle.style.display = 'none'
+
+ftFirst.onmouseleave = function () {
+    jubanle.style.opacity = '0'
+    jubanle.style.transform = 'translateY(10%)'
+    if (!ftFirst.contains(Event.target) || Event.target === jubanle) {
+        setTimeout(function () {
+            jubanle.style.display = 'none'
+        }, 100)
+    }
 }
 
 Rlastshare.onmouseover = function () {
@@ -188,10 +199,6 @@ brron.onmouseover = function () {
 yuyan.onmouseleave = function () {
     yuyan.style.display = 'none'
 }
-
-
-//响应式footer
-
 
 // 底部行为
 
